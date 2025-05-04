@@ -1,0 +1,59 @@
+site_name: Asadullah Shehbaz(Data Scientist ,ML Engineer)
+site_description: "This is a collection of my projects!"
+site_author: Asadullah
+site_url: https://asadullah.dev  # optional
+repo_url: https://github.com/yourusername/yourrepo
+repo_name: GitHub
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.integrate
+
+nav:
+  - Home: index.md
+  - Projects: projects.md
+  - Blog: blog.md
+  - Skills: skills.md
+  - Resume: resume.md
+  - About: about.md
+  - User Guide: user_guide.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - footnotes
+  - attr_list
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
