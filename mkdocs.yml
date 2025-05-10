@@ -37,6 +37,7 @@ nav:
   - Resume: resume.md
   - About: about.md
   - User Guide: user_guide.md
+  - Kotlin Tutorial : Kotlin.md
 
 markdown_extensions:
   - toc:
