@@ -1,4 +1,4 @@
-# 🧠 Introduction to NLP (Natural Language Processing)
+# 🧠 Topic 1. Introduction to NLP (Natural Language Processing)
 
 ## 🔍 What is NLP?
 
@@ -66,3 +66,67 @@ print("Tokens:", blob.words)
 Sentiment: Sentiment(polarity=0.625, subjectivity=0.6)
 Tokens: ['I', 'love', 'studying', 'NLP', 'It', "'s", 'amazing']
 ```
+
+--- 
+
+# 🧠 Topic 2. The Turing Test 
+
+## 🔍 What is the Turing Test?
+
+The **Turing Test** is a method proposed by **Alan Turing** in 1950 to determine whether a machine can exhibit **intelligent behavior** that is **indistinguishable from that of a human**.
+
+---
+
+## 🧪 How Does the Turing Test Work?
+
+The test involves **three participants**:
+1. **A human evaluator (judge)**
+2. **A human respondent**
+3. **A machine (AI system)**
+
+All communication takes place via **text**, so the evaluator cannot see or hear the participants.
+
+- The evaluator asks questions to both the human and the machine.
+- If the evaluator **cannot reliably tell which is which**, the machine is said to have **passed the Turing Test**.
+
+---
+
+## 🎯 Purpose of the Turing Test
+
+To answer the question:  
+> **"Can machines think?"**
+
+Turing reframed it as:  
+> **"Can a machine imitate a human well enough to fool another human?"**
+
+---
+
+## 🤖 Example Scenario
+
+**Judge**: "What’s your favorite food?"  
+**Human**: "I love pizza!"  
+**Machine**: "I enjoy pasta. It tastes great with tomato sauce."
+
+If the **judge cannot identify** which response came from the machine, the machine **passes** the test.
+
+---
+
+## ✅ Key Points
+
+- The test measures **human-like intelligence**, not actual understanding.
+- A machine passing the Turing Test may still not *truly* understand or think.
+- It evaluates **behavioral imitation**, not consciousness.
+
+---
+
+## 🔎 Limitations of the Turing Test
+
+- Focuses only on imitation, not **true intelligence** or understanding
+- Can be **fooled** by clever tricks
+- Doesn't assess **emotion**, **reasoning**, or **self-awareness**
+
+---
+
+## 📌 Summary
+
+The **Turing Test** is a foundational concept in **Artificial Intelligence**. It explores how closely a machine can mimic human behavior and inspires the development of more realistic conversational AI systems.
