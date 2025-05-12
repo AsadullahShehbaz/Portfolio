@@ -38,6 +38,7 @@ nav:
   - About: about.md
   - User Guide: user_guide.md
   - Kotlin Tutorial : Kotlin.md
+  - NLP Tutorial : nlp.md
 
 markdown_extensions:
   - toc:
