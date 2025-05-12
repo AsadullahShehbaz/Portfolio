@@ -50,7 +50,7 @@ A **hands-on demonstration** means practically implementing NLP techniques using
 
 ---
 
-## 📚 Example Code for Sentiment Analysis
+## 📚 Example Code for Sentiment Analysis :
 
 ```python
 from textblob import TextBlob
@@ -61,7 +61,7 @@ blob = TextBlob(text)
 print("Sentiment:", blob.sentiment)
 print("Tokens:", blob.words)
 ```
-## Output 
+## Output : 
 ```
 Sentiment: Sentiment(polarity=0.625, subjectivity=0.6)
 Tokens: ['I', 'love', 'studying', 'NLP', 'It', "'s", 'amazing']
