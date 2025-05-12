@@ -67,8 +67,6 @@ Sentiment: Sentiment(polarity=0.625, subjectivity=0.6)
 Tokens: ['I', 'love', 'studying', 'NLP', 'It', "'s", 'amazing']
 ```
 
---- 
-
 # 🧠 Topic 2. The Turing Test 
 
 ## 🔍 What is the Turing Test?
